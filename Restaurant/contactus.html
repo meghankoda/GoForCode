@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mendl's Patisserie</title>
+</head>
+<body>
+	<div id=title>
+	<h1>Mendl's Patisserie</h1>
+	</div>
+	<div id=navigation>
+	<hr />
+	<p><a href="index.html" target="_blank">Home</a>   <a href="menu.html" target="_blank">Menu</a>   <a href="contactus.html" target="_blank">Contact Us</a><p>
+	<hr />
+	</div>
+	<div id=main>
+	<div class="content">
+	<form action="submit.html" method="POST">
+	
+	<label for="name">Name:</label><br />
+	<input type="text"id="name" name="name"><br />
+	
+	<label for="email">Email:</label><br />
+	<input type="text"id="email" name="email"><br />
+	
+	<label for="phone">Phone:</label><br />
+	<input type="text"id="phone" name="phone"><br />
+	
+	<label for="inquiry">Reason for Inquiry:</label><br />
+		<select id="inquiry" name="inquiry">
+		<option value="default" selected>Catering</option>
+		<option value="privateParty">Private Party</option>
+		<option value="feedback">Feedback</option>
+		<option value="other">Other</option>
+		</select><br />
+	<label for="info">Additional Information:</label><br />
+	<textarea id="info"></textarea><br />
+	<fieldset>
+		<legend>Have you been to the Patisserie?:</legend><br />
+		<input type="radio" id="choice1" name="visit" value="yes">
+		<label for="choice1">Yes</label><br />
+		<input type="radio" id="choice2" name="visit" value="no">
+		<label for="choice2">No</label><br />
+	</fieldset>
+	<fieldset>
+		<legend>Best Days to contact you:</legend><br />
+		<input type="checkbox" id="m" name="days" value="m">
+		<label for="m">M</label> <br />
+		<input type="checkbox" id="t" name="days" value="t">
+		<label for="t">T</label> <br />
+		<input type="checkbox" id="w" name="days" value="w">
+		<label for="w">W</label> <br />
+		<input type="checkbox" id="th" name="days" value="th">
+		<label for="th">Th</label> <br />
+		<input type="checkbox" id="f" name="days" value="f">
+		<label for="f">F</label> <br />
+	</fieldset>
+	
+	<input type="sendRequest" name="sendRequest" value="Send Request">
+	</div
+	</div>
+	<hr />
+<div id=footer>
+	<footer>
+		<p> Budapest, Cziffra Gy&#246;rgy u. 13, 1032 Republic of Zubrowka</p>
+		<p> 06 25 824-513</p>
+	</footer>
+</div>		
+</body>
+</html>
