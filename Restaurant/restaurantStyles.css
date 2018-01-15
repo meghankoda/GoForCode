@@ -1,0 +1,67 @@
+/* Common elements across all pages*/
+/* colors
+*	maroon-			7F3D4C
+	medium blue- 	58A2DE
+	dark pink-		DE5877
+	baby pink-		FFD4E7
+	baby blue-		BAD9F0	*/
+
+body{
+	font-family: Arial, sans-serif;
+	color: #7F3D4C;
+	background-color: #FFD4E7;
+}
+
+h1{
+	font-family:'Work Sans', Arial Black, Sans-serif;
+	font-size: 20px;
+	color: #DE5877;
+}
+
+hr{
+	border-bottom: 1px solid #58A2DE;
+}
+
+h2{
+	font-family:'Work Sans', Arial Black, Sans-serif;
+	font-size: 12px;
+	color: #DE5877;
+}
+
+a {color:#7F3D4C;
+	font-family: Arial, sans-serif;
+}
+
+a:link{color:#7F3D4C;
+	text-decoration:underlined;
+}
+
+a:visited {color:#DE5877;
+}
+
+a:hover{color:#7F3D4C;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+a:active{color:#7F3D4C;
+}
+
+
+/* ID styling*/
+#title{
+	font-family:'Work Sans', Arial Black, Sans-serif;
+	font-size: 40px;
+	color: #DE5877;
+	text-align:center
+}
+
+#footer{
+	font-family:'Work Sans', Arial Black, Sans-serif;
+	font-size: 12px;
+	color: #DE5877;
+	text-align:center
+}
+#main{
+	background-color: #BAD9F0;
+}

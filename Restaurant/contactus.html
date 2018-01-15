@@ -2,29 +2,71 @@
 <html>
 <head>
 	<title>Mendl's Patisserie</title>
+	<link href="restaurantStyles.css" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Work+Sans:900" rel="stylesheet"type="text/css" />
+	<style>
+		input[type=text]{
+			background-color:#FFD4E7;
+			border:1px solid #DE5877;
+			
+		}
+		fieldset{
+			background-color:#FFD4E7;
+			border:1px solid #DE5877;
+		}
+		input, label{
+			font-family: Arial, sans-serif;
+			color: #7F3D4C;
+		}
+		legend{
+			font-family: Arial, sans-serif;
+			color: #7F3D4C;
+		}
+		select{
+			background-color:#FFD4E7;
+			border:1px solid #DE5877;
+		}
+		textarea{
+			background-color:#FFD4E7;
+			border:1px solid #DE5877;
+		}
+		input,submit{
+			background-color:#FFD4E7;
+			border:1px solid #DE5877;
+			color: #7F3D4C;
+			text-align: center;
+			display: inline-black;
+		}
+		
+		.required label {
+    font-weight: bold;
+}
+	</style>
 </head>
 <body>
 	<div id=title>
-	<h1>Mendl's Patisserie</h1>
+	MENDL'S<h1>Patisserie</h1>
 	</div>
-	<div id=navigation>
+	<div id=navigation style="text-align:center;width:100%">
 	<hr />
-	<p><a href="index.html" target="_blank">Home</a>   <a href="menu.html" target="_blank">Menu</a>   <a href="contactus.html" target="_blank">Contact Us</a><p>
-	<hr />
+	<p><a href="index.html">Home</a>   <a href="menu.html">Menu</a>   <a href="contactus.html">Contact Us</a><p>
 	</div>
 	<div id=main>
+	<hr />
 	<div class="content">
 	<form action="submit.html" method="POST">
-	
+	<legend> Required fields are in <b>bold.</b></legend>
+	<br />
+	<div class="required">
 	<label for="name">Name:</label><br />
 	<input type="text"id="name" name="name"><br />
 	
 	<label for="email">Email:</label><br />
-	<input type="text"id="email" name="email"><br />
+	<input type="text"id="email" name="email" ><br />
 	
 	<label for="phone">Phone:</label><br />
-	<input type="text"id="phone" name="phone"><br />
-	
+	<input type="text"id="phone" name="phone" ><br />
+	</div>
 	<label for="inquiry">Reason for Inquiry:</label><br />
 		<select id="inquiry" name="inquiry">
 		<option value="default" selected>Catering</option>
@@ -54,11 +96,11 @@
 		<input type="checkbox" id="f" name="days" value="f">
 		<label for="f">F</label> <br />
 	</fieldset>
-	
+	<br >
 	<input type="sendRequest" name="sendRequest" value="Send Request">
-	</div
 	</div>
-	<hr />
+		<hr />
+	</div>
 <div id=footer>
 	<footer>
 		<p> Budapest, Cziffra Gy&#246;rgy u. 13, 1032 Republic of Zubrowka</p>
