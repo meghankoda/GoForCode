@@ -2,6 +2,8 @@
 <html>
 <head>
 	<title>Mendl's Patisserie</title>
+
+	<link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
 	<link href="restaurantStyles.css" rel="stylesheet" type="text/css" />
 	<link href="https://fonts.googleapis.com/css?family=Work+Sans:900" rel="stylesheet" type="text/css" />
 	<style>
@@ -25,57 +27,97 @@
 	</div>
 	<div id=navigation style="text-align:center;width:100%">
 	<hr />
-	<p><a href="index.html">Home</a>   <a href="menu.html">Menu</a>   <a href="contactus.html">Contact Us</a><p>
+	<ul class="nav nav-pills">
+		<li class="nav-item"><a class="nav-link" href="index.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+		<li class="nav-item"><a class="nav-link" href="menu.html"><span class="glyphicon glyphicon-cutlery"></span> Menu</a></li>
+		<li class="nav-item"><a class="nav-link" href="contactus.html"><span class="glyphicon glyphicon-envelope"></span> Contact Us</a></li>
+	</ul>
 	</div>
 	<div id=main>
 	<hr />
 	<div class="content">
-	<div class="desserts">
-	<table align="center">
-		<tr>
-			<th>Courtesan Au Chocolate</th>
-			<th>Chouquette</th>
-			<th>Linzer Torte</th>
-		</tr>
-		<tr>
-			<td>The true and popular symbol and herald of a small mountainous nation, filled with chocolate ganache<br />&euro;10</td>
-			<td>Viennoiserie consisting of a small portion of choux pastry sprinkled with pearl sugar and filled with custard or mousse.<br />&euro;8</td>
-			<td>Torte with a lattice design on top, filled with hazelnut and red current jam<br />&euro;15</td>
-		</tr>
-		<tr>
-			<th>Apple Strudel</th>
-			<th>&#201;clair</th>
-			<th>Macaron</th>
-		</tr>
-		<tr>
-			<td>Sliced apples and other fruit are wrapped and cooked in layers of filo pastry<br />&euro;6</td>
-			<td>Choux dough filled with a cream and topped with icing.<br />&euro;5</td>
-			<td>Almond flour cookies sandwiched with buttercream <br />&euro;3</td>
-		</tr>
-	</table>
+	<div class="container-fluid">
+		<div class="row">
+		<div class="col-xs-4">
+			<table align="center">
+				<tr>
+					<th style="text-align: center">Courtesan Au Chocolate</th>
+				</tr>
+				<tr>
+					<td>The true and popular symbol and herald of a small mountainous nation, filled with chocolate ganache<br />&euro;10</td>
+				</tr>
+			</table>
+			<br />
+			<table align="center">
+				<tr>
+					<th style="text-align: center">Apple Strudel</th>
+				</tr>
+				<tr>
+					<td>Sliced apples and other fruit are wrapped and cooked in layers of filo pastry<br />&euro;6</td>
+				</tr>
+			</table>
+		</div>
+		<div class="col-xs-4">
+			<table align="center">
+				<tr>
+					<th style="text-align: center">Chouquette</th>
+				</tr>
+				<tr>
+					<td>Viennoiserie consisting of a small portion of choux pastry sprinkled with pearl sugar and filled with custard or mousse.<br />&euro;8</td>
+				</tr>
+			</table>
+			<br />
+			<table align="center">
+				<tr>
+					<th style="text-align: center">&#201;clair</th>
+				</tr>
+				<tr>
+					<td>Choux dough filled with a cream and topped with icing.<br />&euro;5</td>
+				</tr>
+			</table>
+			<br />
+			<table align="center">
+				<tr>
+					<th colspan=2 style="text-align: center"><u>Beverages</u></th>
+				</tr>
+				<tr>
+					<td>Root Beer</td>
+					<td>&euro;3.00</td>
+				</tr>
+				<tr>
+					<td bgcolor=#E4BECF>Bottled Water</td>
+					<td bgcolor=#E4BECF>&euro;1.25</td>
+				</tr>
+				<tr>
+					<td>Lemonade</td>
+					<td>&euro;1.00</td>
+				</tr>
+				<tr>
+					<td bgcolor=#E4BECF>Iced Tea</td>
+					<td bgcolor=#E4BECF>&euro;1.25</td>
+				</tr>
+			</table>
+		</div>
+		<div class="col-xs-4">
+			<table align="center">
+				<tr>
+					<th style="text-align: center">Linzer Torte</th>
+				</tr>
+				<tr>
+					<td>Torte with a lattice design on top, filled with hazelnut and red current jam<br />&euro;15</td>
+				</tr>
+			</table>
+			<br />
+			<table align="center">
+				<tr>
+					<th style="text-align: center">Macaron</th>
+				</tr>
+				<tr>
+					<td>Almond flour cookies sandwiched with buttercream <br />&euro;3</td>
+				</tr>
+			</table>
+		</div>
 	</div>
-	<br />
-	<div class="drinks">
-	<table align="center"; width:400px;>
-		<tr>
-			<th colspan=2><u>Beverages</u></th>
-		<tr>
-			<td>Root Beer</td>
-			<td>&euro;3.00</td>
-		</tr>
-		<tr>
-			<td bgcolor=#E4BECF>Bottled Water</td>
-			<td bgcolor=#E4BECF>&euro;1.25</td>
-		</tr>
-		<tr>
-			<td>Lemonade</td>
-			<td>&euro;1.00</td>
-		</tr>
-		<tr>
-			<td bgcolor=#E4BECF>Iced Tea</td>
-			<td bgcolor=#E4BECF>&euro;1.25</td>
-		</tr>
-	</table>
 	</div>
 	</div>
 	<hr />
